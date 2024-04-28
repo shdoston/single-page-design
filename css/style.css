@@ -1,0 +1,210 @@
+@import "./base.css";
+@import "./fonts.css";
+@import "./normalize.css";
+@import "./style.css";
+@import "./varible.css";
+
+/* HERO START */
+.header {
+}
+.header-container {
+    /* background-color:var( --Police-Blue) */
+}
+.container {
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-top: 50px;
+    padding-right: 165px;
+}
+.hero-title {
+    font-family: var(--main-font);
+    font-size:16px ;
+    line-height:28px ;
+    font-weight: 700;
+    padding-top:14px ;
+    padding-bottom: 14px;
+    padding-left :48px;
+    padding-right:48px ;
+    background-color:var(--Sacramento-State-Green);
+    border-radius:30px ;
+    color:var(--White);
+}
+.header-design {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+ 
+}
+.herder-title {
+    font-family: var(--main-font);
+    font-size:56px ;
+    line-height:71px;
+    font-weight:700;
+    color:var(--Sacramento-State-Green);
+    padding-top: 66px;
+    color:var(--Sacramento-State-Green);
+}
+.herder-text {
+    font-family: var(--main-font);
+    font-size:18px ;
+    line-height:28px;
+    font-weight:500;
+    color:var(--Sacramento-State-Green);
+    padding-top: 23px;
+    color:var( --Dark-Green);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* HERO END */
+/* MAIN START */
+.main-images{
+    display: flex;
+    padding-left: 165px;
+
+}
+.main-image{
+    display: flex;
+    gap: 26px;
+    margin-left: 25px;
+}
+
+.main-image__e{
+    margin-left: 25px;
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+.main-im{
+    display: flex;
+    align-items:center;
+    padding-left: 165px;
+    margin-top: 136px;
+    margin-bottom: 88px;
+}
+.main-im__div{
+    margin-left: 125px;
+}
+.main-im__title {
+    font-family: var(--main-font);
+    font-size:40px ;
+    line-height:51px ;
+    font-weight:700 ;
+    color:var(  --Sacramento-State-Green);
+    margin-bottom: 34px;
+}
+.main-im__text {
+    font-family: var(--main-font);
+    font-size:18px ;
+    line-height:28px ;
+    font-weight:500 ;
+    color:var(  --Dark-Green);
+    margin-bottom: 32px;
+}   
+
+.main-im__titleuh {
+    font-family: var(--main-font);
+    font-size:16px ;
+    line-height:28px ;
+    font-weight:700 ;
+    padding-top:14px ;
+    padding-bottom: 14px;
+    padding-left :48px;
+    padding-right:48px ;
+    background-color:var(--Police-Bluef);
+    border-radius:30px ;
+    color:var(--White);
+    border-radius:30px;
+    width: 250px;
+}
+.maon-work{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.main-my{
+    font-family: var(--main-font);
+    font-size:32px ;
+    line-height:41px ;
+    font-weight:700 ;   
+    color:var(   --Sacramento-State-Green);
+    margin-bottom: 56px;
+}
+.main-bitmap{
+    display: flex;
+    gap: 30px;
+}
+.maon-work__img{
+    background-color:var(--Sacramento-State-Green);
+   /* padding-top: 24px; */
+   color:var(--Police-Bluef);
+   /* padding-bottom: 24px;
+   /* padding-right: 24px; */
+   padding-left: 24px; */
+   
+   gap: 20px;
+}
+
+
+
+/* MAIN END */
+/* FOOTER START */
+.footer {
+}
+.footer-container {
+    padding-left: 165px;
+    padding-right: 165px;
+}
+.container {
+}
+
+.footer-wiyh {
+}
+.footer-book{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color:var(--Sacramento-State-Green);
+    padding-left: 65px;
+    padding-top: 81px;
+    padding-bottom: 80px;
+    padding-right: 95px;
+    border-radius:8px;
+}
+.footer-call{
+    font-family: var(--main-font);
+    font-size:40px ;
+    line-height:51px ;
+    font-weight: 700;
+    color:var(--White);
+    margin-bottom: 25px;
+    
+}
+.footer-love{
+    font-family: var(--main-font);
+    font-size:18px ;
+    line-height:28px ;
+    font-weight:500 ;
+    color:var(--White)
+}
+.footer-link{
+    font-family:var(--main-font) ;
+    font-size:16px ;
+    line-height:28px ;
+    font-weight: 700;
+    padding-top:14px ;
+    padding-bottom: 14px;
+    padding-left :48px;
+    padding-right:48px ;
+    border-radius:30px ;
+    background-color:var( --Police-Bluef);
+    color:var(--White);
+   
+}
+
+
+/* FOOTER END */
